@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+.row{width:100%}
+.center{text-align:center}
+body{background:#ddd;background:url('../images/bg.png');line-height:1.5em;font-family:'Roboto',sans-serif}
+h1,h2,h3,h4,h5,h6{font-family:'Oswald',sans-serif;color:#111;font-weight:normal}
+h1.page-title{text-transform:uppercase;color:#000;font-size:2.8em;font-weight:normal;line-height:1em;margin-top:0;margin-bottom:.75em}
+.title{color:#000;text-transform:uppercase;margin-top:0;line-height:1em}
+h2.sub-title{font-family:'Roboto',sans-serif;font-size:18px;line-height:2em;margin-bottom:0}
+input[type="text"],input[type="password"],input[type="email"],input[type="tel"],textarea{padding:8px 10px;height:35px}
+::selection{color:#fff;background:#a6b982}
+a{color:#5f6d63}
+a:hover{color:#a6b982}
+a.button.read-more,.button{background:#7e9159;font-family:"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;text-transform:uppercase;font-size:12px;padding:20px 30px;border-radius:3px;border-color:rgb(95,129,23);text-shadow:2px 2px 2px rgba(0,0,0,.15)}
+a.button.read-more:hover,button:hover,button:focus,.button:hover,.button:focus{background-color:#a6b982;-webkit-transition:background-color 1000ms linear;transition:background-color 1000ms linear}
+.outterWrapper{background:#fff;box-shadow:0 0 20px rgba(0,0,0,.2)}
+.pr20{padding-right:20px}
+.row .columns.header-inner{padding:30px 40px}
+.sf-menu{margin-bottom:0}
+.columns.top-nav{padding:0;border-bottom:10px solid rgb(224,227,230)}
+.top-nav,.sf-menu li{background:transparent}
+.sf-arrows .sf-with-ul:after{border-top-color:#3e5769}
+.sf-menu ul li{background:#3e5769}
+.sf-menu ul li a{color:#fff}
+.sf-menu li:hover,.sf-menu li.sfHover{background:rgb(74,117,148)}
+.sf-menu a{color:#070707;border:none;font-family:'Roboto',sans-serif;font-weight:400;text-transform:uppercase;font-size:.75em;padding-left:3.5em;padding-right:3.5em}
+.sf-menu a:hover{color:#fff}
+.small-top-menu{display:none}
+.small-top-menu select{padding:10px 15px;background:#000;font-family:'Roboto',sans-serif;text-transform:uppercase;border:5px solid #fff;margin-bottom:0;color:#fff}
+.row .columns.flexslider-inner{background:#40596c;padding:40px}
+.row .columns.slider-text-box{padding-left:20px}
+.slider-text-box h3{color:#fff;margin-top:0;font-weight:bolder;text-transform:uppercase}
+.slider-text-box h4{text-transform:capitalize;color:#fff}
+.slider-text-box p{font-size:.75em;color:#fff}
+a.morebutton{background:url('../images/buttonbg.png');color:#434343;font-size:12px;padding:5px 10px;border-radius:20px;text-transform:uppercase;font-weight:700}
+.row .columns.feature-box-inner{padding:40px;font-size:.75em}
+.feature-img img{height:150px;width:100%;margin-bottom:18px}
+.feature-box-inner h4{color:#07385e;text-transform:capitalize}
+.row .columns.content-title-inner{padding:40px;font-size:.75em;background:#40596c;color:#fff}
+.row .columns.content-title-inner h1,.row .columns.content-title-inner h2{color:#fff}
+.columns.content-inner{padding:40px;font-size:.75em}
+h3.service-title{text-transform:uppercase}
+.row.services{margin-bottom:30px}
+img.services-image{border-radius:10px}
+.row.contact-form{margin-bottom:40px}
+input.button.send{padding:15px 30px;margin-top:20px;font-size:14px;font-weight:bold;border-radius:5px;background:#FD1515}
+.row .columns.footer-inner,.row .columns.footer-meta-inner{padding:40px;font-size:.75em;background:#f9f9f9;box-shadow:inset 0 3px 4px rgba(0,0,0,.1)}
+.row .columns.footer-meta-inner{background:url('../images/footermetabg.png');box-shadow:inset 0 8px 10px rgba(0,0,0,.5)}
+a.media{width:32px;height:32px;margin-right:8px;margin-top:8px;display:inline-block}
+a.media.facebook{background:url('../images/media.png')}
+a.media.twitter{background:url('../images/media.png') -40px}
+.footer-meta{color:#666}
+span.email{padding-left:22px;background:url('../images/mail.png') no-repeat 0 2px;margin-right:5px}
+span.tel{padding-left:22px;background:url('../images/tel.png') no-repeat 0 2px;margin-right:5px;margin-left:5px}
+span.address{padding-left:20px;background:url('../images/address.png') no-repeat 0 -1px;margin-left:5px}
+@media only screen and (max-width:800px){.small-top-menu{display:block}.row.menu-row{display:none}ul.slides li img{margin-bottom:20px}a.morebutton{margin-bottom:20px;display:block}h1.page-title{font-size:1.8em}.row .columns.header-inner{padding-top:20px;padding-bottom:20px}}
+@media only screen and (max-width:768px){.flexslider-inner{text-align:center}.row .columns.flexslider-inner{padding-bottom:20px}ul.slides li img{margin-bottom:30px}}
+@media only screen and (max-width:800px){.feature-box-inner .small-4{width:100%!important}}
